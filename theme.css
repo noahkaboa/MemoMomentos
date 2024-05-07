@@ -1,0 +1,12 @@
+/* this is the css applied to every page on the site */
+/* override certain attributes for other css files by using !important */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    object-fit: cover;
+}
