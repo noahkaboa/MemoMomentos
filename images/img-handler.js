@@ -34,9 +34,10 @@ export class Album {
 
 
 export let img_list = [
-    new Photo("photo1", "images/photo1.jpg", "2021-01-01"),
-    new Photo("photo2", "images/photo2.jpg", "2021-01-02"),
-    new Photo("photo3", "images/photo3.jpg", "2021-01-03"),
+    new Photo("photo1", "/images/61Zce-PyonL.jpg", "2021-01-01"),
+    new Photo("photo2", "/images/61Zce-PyonL.jpg", "2021-01-02"),
+    new Photo("photo3", "/images/61Zce-PyonL.jpg", "2021-01-03"),
+    new Photo("photo4", "/images/61Zce-PyonL.jpg", "2021-01-04"),
 ];
 
 export let albums = [
