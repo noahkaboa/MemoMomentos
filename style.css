@@ -64,3 +64,17 @@ h1 {
     opacity: 1;
     right: 10px;
 }
+
+/*polaroids*/
+.polaroid {
+    background-color: lightblue;
+    width: 30vw;
+    height: 40vw;
+    padding: 3vw;
+    margin: 2vw;
+}
+
+.photo { 
+    width: 20vw;
+    margin: auto;
+}
