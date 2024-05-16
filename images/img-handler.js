@@ -1,4 +1,4 @@
-export class Photo {
+class Photo {
     constructor(name, url, date) {
         this.name = name;
         this.url = url;
@@ -17,7 +17,7 @@ export class Photo {
     }
 }
 
-export class Album {
+class Album {
     constructor(name) {
         this.name = name;
         this.photo_list = [];
@@ -33,14 +33,14 @@ export class Album {
 }
 
 
-export let img_list = [
+let img_list = [
     new Photo("photo1", "/images/61Zce-PyonL.jpg", "2021-01-01"),
     new Photo("photo2", "/images/61Zce-PyonL.jpg", "2021-01-02"),
     new Photo("photo3", "/images/61Zce-PyonL.jpg", "2021-01-03"),
     new Photo("photo4", "/images/61Zce-PyonL.jpg", "2021-01-04"),
 ];
 
-export let albums = [
+let albums = [
     new Album("album1"),
     new Album("album2"),
 ]
