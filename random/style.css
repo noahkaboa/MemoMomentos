@@ -1,7 +1,8 @@
 section { 
-    height: 50vh; 
+    height: 100vh; 
     width: 100%; 
-    margin-top: -50px; 
+    margin-top: 50px; 
     background-position: center; 
     background-repeat: no-repeat; 
+    background-size: cover;
 } 
