@@ -67,10 +67,7 @@ h1 {
 
 /*polaroids*/
 .polaroid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: rgb(219, 219, 219);
+    background-color: lightblue;
     width: 30vw;
     height: 40vw;
     padding: 3vw;
@@ -78,34 +75,27 @@ h1 {
 }
 
 .photo { 
-    border: 1px solid rgb(0, 0, 0);
-    width: 9%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 123px;
-    /* this is intended to center the photo within the div but isnt working, so u might wanna look up how to center an img in a div */
+    width: 20vw;
+    margin: auto;
 }
 
-.polaroid h1 {
-
-}
+/* dialog */
 
 dialog {
     width: 80%;
-    height: 80%;
+    height: fit-content;
     margin: auto;
-    background-color: greenyellow;
-    
 }
+
 .modal-container {
     display: grid;
-    grid-template-columns: 25%;
+    grid-template-columns: 33%;
     grid-template-rows: auto;
     grid-template-areas:
         "pic type type type"
-        "collection collection collection collection";
-    gap: 5vw;
+        "collection collection collection collection"
+        "button button button button";
+    row-gap: 2vw;
 }
 
 .modal-pic {
@@ -116,6 +106,30 @@ dialog {
     grid-area: type;
 }
 
+.modal-text h2 {
+    font-size: 6vw;
+    margin: 0;
+}
+
+.modal-text h3 {
+    margin: 0;
+    font-size: 3vw;
+}
+
+.modal-text p {
+    margin: 0;
+    margin-top: 1.5vw;
+    font-size: 2vw;
+}
+
 .modal-collection {
     grid-area: collection;
+    display: flex;
+    justify-content: space-between;
+}
+
+#closeModal {
+    grid-area: button;
+    margin: auto;
+    width: 40%;
 }
