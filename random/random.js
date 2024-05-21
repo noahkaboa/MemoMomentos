@@ -8,4 +8,4 @@ function getRandomImage() {
     return img;
 }
 
-setInterval(getRandomImage, 1000); 
+getRandomImage(); 
