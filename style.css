@@ -83,7 +83,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    min-width: 123px;
+    min-width: 20 vw;
     /* this is intended to center the photo within the div but isnt working, so u might wanna look up how to center an img in a div */
 }
 
