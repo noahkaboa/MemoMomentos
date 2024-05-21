@@ -86,10 +86,25 @@ h1 {
     min-width: 123px;
     /* this is intended to center the photo within the div but isnt working, so u might wanna look up how to center an img in a div */
 }
+
+.polaroid h1 {
+
+}
+
 dialog {
     width: 80%;
     height: 80%;
     margin: auto;
     background-color: greenyellow;
     
+}
+.modal-container {
+    display: grid;
+    grid-template-columns: 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "main-pic text text"
+        "collection collection collection";
+    column-gap: 1vw;
+    row-gap: 1vw;
 }
