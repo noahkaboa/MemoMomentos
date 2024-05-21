@@ -65,10 +65,12 @@ h1 {
     right: 10px;
 }
 
-<<<<<<< HEAD
 /*polaroids*/
 .polaroid {
-    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(219, 219, 219);
     width: 30vw;
     height: 40vw;
     padding: 3vw;
@@ -76,18 +78,18 @@ h1 {
 }
 
 .photo { 
-    width: 20vw;
-    margin: auto;
-=======
-
-
-/* dialog */
-
+    border: 1px solid rgb(0, 0, 0);
+    width: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 123px;
+    /* this is intended to center the photo within the div but isnt working, so u might wanna look up how to center an img in a div */
+}
 dialog {
     width: 80%;
     height: 80%;
     margin: auto;
     background-color: greenyellow;
     
->>>>>>> 4ce9703a8839f0879211afae0d9fbb4219125694
 }
