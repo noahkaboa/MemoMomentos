@@ -1,5 +1,5 @@
 class Photo {
-    constructor(name, url, date, location, albums) {
+    constructor(name, url, date, location, album_list) {
         this.name = name;
         this.url = url;
         this.date = date;
