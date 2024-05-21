@@ -103,8 +103,19 @@ dialog {
     grid-template-columns: 25%;
     grid-template-rows: auto;
     grid-template-areas:
-        "main-pic text text"
-        "collection collection collection";
-    column-gap: 1vw;
-    row-gap: 1vw;
+        "pic type type type"
+        "collection collection collection collection";
+    gap: 5vw;
+}
+
+.modal-pic {
+    grid-area: pic;
+}
+
+.modal-text {
+    grid-area: type;
+}
+
+.modal-collection {
+    grid-area: collection;
 }
