@@ -104,6 +104,7 @@ dialog {
 
 .modal-pic {
     grid-area: pic;
+    width: 90%;
 }
 
 .modal-text {
@@ -129,11 +130,17 @@ dialog {
 .modal-collection {
     grid-area: collection;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.modal-collection img {
+    width: 22vw;
+    margin: 1vw;
 }
 
 #closeModal {
     grid-area: button;
     margin: auto;
     width: 40%;
+    height: 3vw;
 }
