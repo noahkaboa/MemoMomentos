@@ -35,6 +35,13 @@ class Album {
 }
 
 
+let img_list = [
+    new Photo("photo1", "/images/61Zce-PyonL.jpg", "2021-01-01"),
+    new Photo("photo2", "/images/main8.avif", "2021-01-02"),
+    new Photo("photo3", "/images/SSU_Kirby_artwork.png", "2021-01-03"),
+    new Photo("photo4", "/images/61Zce-PyonL.jpg", "2021-01-04"),
+];
+
 let albums = [
     new Album("ourHeadshots"),
     new Album("album2"),
