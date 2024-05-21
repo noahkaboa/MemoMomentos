@@ -88,7 +88,9 @@ h1 {
 }
 
 .polaroid h1 {
-
+    color:rgb(126, 27, 27);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
 }
 
 dialog {
