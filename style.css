@@ -67,27 +67,36 @@ h1 {
 
 /*polaroids*/
 .polaroid {
-    background-color: lightblue;
-    width: 30vw;
-    height: 40vw;
+    background-color: rgb(231, 231, 231);
+    width: 16vw;
+    height: 20vw;
     padding: 3vw;
     margin: 2vw;
+}
+.polaroid-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.polaroid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .photo { 
     border: 1px solid rgb(0, 0, 0);
-    width: 9%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 20 vw;
+    width: 15vw;
+    height: 15vw;
+    
     /* this is intended to center the photo within the div but isnt working, so u might wanna look up how to center an img in a div */
 }
 
 .polaroid h1 {
-    color:rgb(126, 27, 27);
+    color:rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 100;
+    font-weight: 20px;
+    padding: 2vw;
 }
 
 dialog {
