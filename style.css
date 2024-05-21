@@ -65,7 +65,6 @@ h1 {
     right: 10px;
 }
 
-<<<<<<< HEAD
 /*polaroids*/
 .polaroid {
     background-color: lightblue;
@@ -78,8 +77,7 @@ h1 {
 .photo { 
     width: 20vw;
     margin: auto;
-=======
-
+}
 
 /* dialog */
 
@@ -87,7 +85,15 @@ dialog {
     width: 80%;
     height: 80%;
     margin: auto;
-    background-color: greenyellow;
-    
->>>>>>> 4ce9703a8839f0879211afae0d9fbb4219125694
+}
+
+.modal-container {
+    display: grid;
+    grid-template-columns: 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "main-pic text text"
+        "collection collection collection";
+    column-gap: 1vw;
+    row-gap: 1vw;
 }
