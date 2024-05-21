@@ -79,7 +79,11 @@ h1 {
     margin: auto;
 }
 
-/* dialog */
+.polaroid h1 {
+    color:rgb(126, 27, 27);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
 
 dialog {
     width: 80%;
