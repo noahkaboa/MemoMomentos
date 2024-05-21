@@ -1,9 +1,11 @@
 class Photo {
-    constructor(name, url, date) {
+    constructor(name, url, date, location, albums) {
         this.name = name;
         this.url = url;
         this.date = date;
+        this.location = location
         this.album_list = [];
+        albums.forEach(album => this.addAlbum(album));
     }
 
     addAlbum(album_name) {
@@ -33,14 +35,14 @@ class Album {
 }
 
 
-let img_list = [
-    new Photo("photo1", "/images/61Zce-PyonL.jpg", "2021-01-01"),
-    new Photo("photo2", "/images/61Zce-PyonL.jpg", "2021-01-02"),
-    new Photo("photo3", "/images/61Zce-PyonL.jpg", "2021-01-03"),
-    new Photo("photo4", "/images/61Zce-PyonL.jpg", "2021-01-04"),
-];
-
 let albums = [
-    new Album("album1"),
+    new Album("ourHeadshots"),
     new Album("album2"),
 ]
+
+let img_list = [
+    new Photo("AlexHeadshot", "/images/61Zce-PyonL.jpg", "2023-07-01", ["ourHeadshots"]),
+    new Photo("AmelieHeadshot", "/images/61Zce-PyonL.jpg", "2023-07-02", ["ourHeadshots"]),
+    new Photo("CaitlynHeadshot", "/images/61Zce-PyonL.jpg", "2023-07-03", ["ourHeadshots"]),
+    new Photo("NoahHeadshot", "/images/61Zce-PyonL.jpg", "2023-07-04", ["ourHeadshots"]),
+];

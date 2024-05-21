@@ -1,20 +1,23 @@
-const modal = document.getElementsByClassName('modal')[0];
-console.log(modal)
+const modals = document.getElementsByClassName('modal');
+console.log(modals)
 const isOpen = false
-modal.close()
 
-function openModal() {
-    modal.showModal();
+for(let i = 0; i < modals.length; i++){
+    modals[i].close()
 }
 
-function closeModal(){
-    modal.close();
+function openModal(index) {
+    modals[index].showModal();
 }
 
-function toggleModal(){
+function closeModal(index){
+    modals[index].close();
+}
+
+function toggleModal(index){
     if(isOpen){
-        closeModal();
+        closeModal(index);
     } else {
-        openModal();
+        openModal(index);
     }
 }
