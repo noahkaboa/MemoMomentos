@@ -17,7 +17,7 @@
             <h2> A Collection of Memories + Momentos </h2>
             <button onclick="document.getElementsByClassName('polaroid-main')[0].scrollIntoView()"> Begin </button>
         </div>
-        <img src="https://st.depositphotos.com/2325841/2529/i/450/depositphotos_25293855-stock-photo-multi-ethnic-group-thumbs-up.jpg">
+        <img src="images\group\IMG_7648.JPEG">
     </section>
 
     <!-- modal dialog part meowww -->
@@ -56,33 +56,156 @@
         </div>
     </dialog>
 
+    <dialog open class="modal">
+        <div class="modal-container">
+            <img class="modal-pic" src="images/fbla/IMG_6722.JPG">
+            <div class="modal-text">
+                <h2> FBLA </h2>
+                <h3> 2023 & 2024 - Atlantic City, NJ </h3>
+                <p> Us business leaders of America know whats up </p>
+            </div>
+            <div class="modal-collection">
+                <img src="images/fbla/IMG_2603.jpg">
+                <img src="images/fbla/IMG_2755.jpg">
+                <img src="images/fbla/IMG_6763.JPEG">
+                <img src="images/fbla/IMG_9543.jpg">
+            </div>
+            <button id="closeModal" onclick="toggleModal(2)"> Close </button>
+        </div>
+    </dialog>
+
+    <dialog open class="modal">
+        <div class="modal-container">
+            <img class="modal-pic" src="images/commits day/IMG_5934.jpg">
+            <div class="modal-text">
+                <h2> Commits Day </h2>
+                <h3> May 31, 2024 - AIT </h3>
+                <p> Wearing our college commits shirts because we are oh so joyous and prideful. </p>
+            </div>
+            <div class="modal-collection">
+                <img src="images/commits day/IMG_5898.jpg">
+                <img src="images/commits day/IMG_5936.jpg">
+                <img src="images/commits day/IMG_5938.jpg">
+                <img src="images/commits day/IMG_5940.jpg">
+            </div>
+            <button id="closeModal" onclick="toggleModal(3)"> Close </button>
+        </div>
+    </dialog>
+
+    <dialog open class="modal">
+        <div class="modal-container">
+            <img class="modal-pic" src="images/senior_sunrise/IMG_0003.jpg">
+            <div class="modal-text">
+                <h2> Senior Sunrise </h2>
+                <h3> October 4, 2023 - UCTech </h3>
+                <p> Celebrating the start of senior year before class in the morning! </p>
+            </div>
+            <div class="modal-collection">
+                <img src="images/senior_sunrise/IMG_0013.jpg">
+                <img src="images/senior_sunrise/IMG_4599.jpg">
+                <img src="images/senior_sunrise/IMG_4600.jpg">
+                <img src="images/senior_sunrise/IMG_4601.jpg">
+                <img src="images/senior_sunrise/IMG_9963.jpg">
+                <img src="images/senior_sunrise/IMG_9978.jpg">
+                <img src="images/senior_sunrise/IMG_9982.jpg">
+            </div>
+            <button id="closeModal" onclick="toggleModal(4)"> Close </button>
+        </div>
+    </dialog>
+    
+    <dialog open class="modal">
+        <div class="modal-container">
+            <img class="modal-pic" src="images/relay/Attach0.JPG">
+            <div class="modal-text">
+                <h2> Relay </h2>
+                <h3> March 15, 2024 - AIT </h3>
+                <p> The Fan Club ! </p>
+            </div>
+            <div class="modal-collection">
+                <img src="images/relay/IMG_4908.jpg">
+                <img src="images/relay/IMG_4931.jpg">
+                <img src="images/relay/Attach0(1).JPG">
+            </div>
+            <button id="closeModal" onclick="toggleModal(5)"> Close </button>
+        </div>
+    </dialog>
+
+    <dialog open class="modal">
+        <div class="modal-container">
+            <img class="modal-pic" src="images/prom/IMG_1083.jpg">
+            <div class="modal-text">
+                <h2> Prom </h2>
+                <h3> May 17, 2024 - Somerset, NJ </h3>
+                <p> "Dance the Night Away" by TWICE </p>
+            </div>
+            <div class="modal-collection">
+                <img src="images/prom/IMG_1272.jpg">
+                <img src="images/prom/IMG_1275.jpg">
+                <img src="images/prom/IMG_1279.jpg">
+                <img src="images/prom/IMG_1344.jpg">
+                <img src="images/prom/IMG_1375.jpg">
+                <img src="images/prom/IMG_1382.jpg">
+                <img src="images/prom/IMG_1429.PNG">
+                <img src="images/prom/IMG_1444.jpg">
+                <img src="images/prom/IMG_4360.jpg">
+                <img src="images/prom/IMG_5987.jpg">
+
+            </div>
+            <button id="closeModal" onclick="toggleModal(6)"> Close </button>
+        </div>
+    </dialog>
+
+    <dialog open class="modal">
+        <div class="modal-container">
+            <img class="modal-pic" src="images/group/IMG_7648.JPEG">
+            <div class="modal-text">
+                <h2> Group </h2>
+                <h3> 2023 & 2024 </h3>
+                <p> Our many group photos at various events or before breaks!</p>
+            <div class="modal-collection">
+                <img src="images/group/IMG_1492.jpeg">
+                <img src="images/group/IMG_2972.JPEG">
+                <img src="images/group/IMG_3019.JPEG">
+            </div>
+            <button id="closeModal" onclick="toggleModal(7)"> Close </button>
+        </div>
+    </dialog>
 
     <!-- polaroid part -->
     <section class="polaroid-main">
         <!-- ur gonna copy and paste the polaroid div and it will maintain the same styling bc it is under the same class -->
         <div class="polaroid" onclick="toggleModal(0)">
-            <img class="photo" src="https://t4.ftcdn.net/jpg/01/07/57/91/360_F_107579101_QVlTG43Fwg9Q6ggwF436MPIBTVpaKKtb.jpg">
-            <h1> caption </h1>
+            <img class="photo" src="images/six_flags/IMG_5633.jpg">
+            <h1> Six Flags </h1>
         </div>
         <div class="polaroid" onclick="toggleModal(1)">
             <img class="photo" src="images/mall/IMG_9298.jpg">
             <h1> Mall Day </h1>
         </div>
-        <div class="polaroid">
-            <img class="photo" src="https://t4.ftcdn.net/jpg/01/07/57/91/360_F_107579101_QVlTG43Fwg9Q6ggwF436MPIBTVpaKKtb.jpg">
-            <h1> caption </h1>
+        <div class="polaroid" onclick="toggleModal(2)">
+            <img class="photo" src="images/fbla/IMG_6722.JPG">
+            <h1> FBLA </h1>
         </div>
-        <div class="polaroid">
-            <img class="photo" src="https://t4.ftcdn.net/jpg/01/07/57/91/360_F_107579101_QVlTG43Fwg9Q6ggwF436MPIBTVpaKKtb.jpg">
-            <h1> caption </h1>
         </div>
-        <div class="polaroid">
-            <img class="photo" src="https://t4.ftcdn.net/jpg/01/07/57/91/360_F_107579101_QVlTG43Fwg9Q6ggwF436MPIBTVpaKKtb.jpg">
-            <h1> caption </h1>
+        <div class="polaroid" onclick="toggleModal(3)">
+            <img class="photo" src="images/commits day/IMG_5934.jpg">
+            <h1> Commits Day </h1>
         </div>
-        <div class="polaroid">
-            <img class="photo" src="https://t4.ftcdn.net/jpg/01/07/57/91/360_F_107579101_QVlTG43Fwg9Q6ggwF436MPIBTVpaKKtb.jpg">
-            <h1> caption </h1>
+        <div class="polaroid" onclick="toggleModal(4)">
+            <img class="photo" src="images/senior_sunrise/IMG_0003.jpg">
+            <h1> Senior Sunrise </h1>
+        </div>
+        <div class="polaroid" onclick="toggleModal(5)">
+            <img class="photo" src="images/relay/Attach0.JPG">
+            <h1> Relay </h1>
+        </div>
+        <div class="polaroid" onclick="toggleModal(6)">
+            <img class="photo" src="images/prom/IMG_1083.jpg">
+            <h1> Prom </h1>
+        </div>
+        <div class="polaroid" onclick="toggleModal(7)">
+            <img class="photo" src="images/group/IMG_7648.jpeg">
+            <h1> Group </h1>
         </div>
     </section>
     
